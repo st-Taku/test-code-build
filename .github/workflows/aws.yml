@@ -71,7 +71,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: hapily-devops-sandbox-repository
+        ECR_REPOSITORY: hapily-repository
         IMAGE_TAG: ${{ github.sha }}
       run: |
         # Build a docker container and
