@@ -5,8 +5,8 @@
     "inferenceAccelerators": [],
     "containerDefinitions": [
         {
-            "name": "ecs-devops-sandbox",
-            "image": "ecs-devops-sandbox-repository:00000",
+            "name": "hapily-devops-sandbox",
+            "image": "215237766290.dkr.ecr.ap-northeast-1.amazonaws.com/hapily-repository",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
